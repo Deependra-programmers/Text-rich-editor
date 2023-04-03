@@ -87,12 +87,21 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/quill/dist/quill.core.css",
+              "./node_modules/quill/dist/quill.bubble.css",
+              "./node_modules/quill/dist/quill.snow.css",
+              "./node_modules/quill-mention/dist/quill.mention.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/quill/dist/quill.min.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b2e7a533-62f5-47f4-86fd-9e62d3842770"
   }
 }
